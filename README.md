@@ -1,74 +1,44 @@
-Netflix Titles Analysis – Exploratory Data Project
+# 🎬 Netflix Titles Analysis – Python & Jupyter
 
-This project analyzes the Netflix titles dataset (movies and TV shows) using Python. It demonstrates data wrangling, visualization, and exploratory data analysis (EDA) skills with pandas, numpy, and matplotlib.
+📊 An exploratory data analysis (EDA) project on the **Netflix titles dataset** (movies & TV shows).  
+Includes **data wrangling, visualizations, and insights** on content trends, ratings, and countries.  
 
-📌 Project Objective
+---
 
-The goal of this project is to explore and answer key business questions about Netflix content, such as:
+## 🚀 Project Highlights
+- Trend analysis of **Movies vs TV Shows added over time**  
+- **Top 10 producing countries** for Netflix titles  
+- Runtime analysis: count of **long-duration (150+ mins) titles**  
+- **IMDb vs TMDb ratings** comparison for selected titles  
+- Best-rated movies per decade  
+- Top 10 highest-rated titles overall  
 
-Distribution of movies vs. TV shows over the years
+---
 
-Top countries producing Netflix content
+## 🛠️ Tech & Skills Demonstrated
+- **Python (pandas, numpy, matplotlib)** → Data cleaning, transformation, and analysis  
+- **Jupyter Notebook** → Interactive exploration & documentation  
+- **Data Visualization** → Trends, bar charts, comparisons  
+- **Analytical Thinking** → Business-style insights from raw data  
 
-Analysis of runtime, ratings, and categories
+---
 
-Comparison of IMDb and TMDb scores
+## 📂 Files in Repo
+- `data/titles.csv` → Dataset used (included)  
+- `notebooks/netflix_titles_analysis.ipynb` → Main Jupyter notebook  
+- `images/` → Optional charts or visual outputs  
+- `requirements.txt` → Python dependencies  
+- `.gitignore` → Ignore unnecessary files  
+- `LICENSE` → MIT license  
 
-Identification of longest runtime and highest-rated titles
+---
 
-🛠️ Tech Stack
+## 📸 Sample Visualization
+![Movies vs TV Shows Over Time](images/movies_vs_tvshows.png)
 
-Programming: Python
+---
 
-Libraries: pandas, numpy, matplotlib
-
-Environment: Jupyter Notebook
-
-📂 Repository Structure
-
-data/ → contains titles.csv dataset (already included)
-
-notebooks/ → Jupyter notebook (netflix_titles_analysis.ipynb) with the analysis
-
-images/ → optional visualizations and saved plots
-
-README.md → project documentation
-
-requirements.txt → Python dependencies
-
-.gitignore → ignores unnecessary files/folders
-
-LICENSE → MIT license
-
-📊 Key Insights
-
-Growth trend of Netflix movies and shows over the years
-
-Top producing countries for Netflix content
-
-Runtime analysis for long-duration titles
-
-IMDb vs. TMDb rating comparisons
-
-Best-rated movies per decade
-
-Top 10 highest-rated titles overall
-
-▶️ How to Run the Project
-
-Clone or download the repository.
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-Open the notebook:
-
-jupyter notebook notebooks/netflix_titles_analysis.ipynb
-
-Run the cells to reproduce the analysis.
-
-📜 License
-
-This project is licensed under the terms of the MIT License.
-
+## 🔮 Future Improvements
+- Add genre-level analysis (Drama, Comedy, Action, etc.)  
+- Use Seaborn/Plotly for interactive visualizations  
+- Expand to recommendations (content similarity, clustering)  
