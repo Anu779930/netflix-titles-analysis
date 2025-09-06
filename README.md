@@ -33,11 +33,6 @@ Includes **data wrangling, visualizations, and insights** on content trends, rat
 
 ---
 
-## 📸 Sample Visualization
-![Movies vs TV Shows Over Time](images/movies_vs_tvshows.png)
-
----
-
 ## 🔮 Future Improvements
 - Add genre-level analysis (Drama, Comedy, Action, etc.)  
 - Use Seaborn/Plotly for interactive visualizations  
